@@ -538,5 +538,78 @@
         </form>
       </div>
     </div>
+    <!-- heder-mobile-modal -->
+    <div class="mobile-container">
+      <div class="mobile-container-window">
+        <button class="btn-close" type="button">
+          <svg class="icon-modal-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav">
+          <ul class="mobie-menu">
+            <li>
+              <a class="studio-sub-menu current" href="./index.html">Studio</a>
+            </li>
+            <li><a class="studio-sub-menu" href="">Portfolio</a></li>
+            <li><a class="studio-sub-menu" href="">Contacts</a></li>
+          </ul>
+
+          <address>
+            <ul class="mobile-kontakt-box">
+              <li>
+                <a class="adress-data" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a class="adress-data" href=" mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-soc-item">
+              <li class="icon-item">
+                <a class="icon-link" href="">
+                  <svg class="icon-soc" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram-2"></use></svg
+                ></a>
+              </li>
+              <li class="icon-item">
+                <a class="icon-link" href=""
+                  ><svg class="icon-soc" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter-1"></use></svg
+                ></a>
+              </li>
+              <li class="icon-item">
+                <a class="icon-link" href=""
+                  ><svg class="icon-soc" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook-1"></use></svg
+                ></a>
+              </li>
+              <li class="icon-item">
+                <a class="icon-link" href=""
+                  ><svg class="icon-soc" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </address>
+        </nav>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const closeButton = document.querySelector(".btn-close");
+        const modalContainer = document.querySelector(
+          ".modal-window-container"
+        );
+
+        closeButton.addEventListener("click", function () {
+          modalContainer.classList.remove("is-open");
+        });
+      });
+    </script>
   </body>
 </html>
