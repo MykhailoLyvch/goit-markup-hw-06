@@ -26,6 +26,15 @@
           <a class="logo" href="./index.html"
             >Web<span class="logo-studio">Studio</span>
           </a>
+          <button
+            class="toggle-menu-btn"
+            onclick="location.href='#mobile-menu'"
+            type="button"
+          >
+            <svg class="toggle-menu-btn-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+            </svg>
+          </button>
 
           <ul class="menu">
             <li>
@@ -458,6 +467,7 @@
         </div>
       </div>
     </footer>
+    <!-- modal window -->
     <div class="modal-window-container is-open">
       <div class="modal-window">
         <button class="btn-close" type="button">
@@ -538,8 +548,9 @@
         </form>
       </div>
     </div>
-    <!-- heder-mobile-modal -->
-    <div class="mobile-container">
+    <!-- 
+    heder-mobile-modal -->
+    <div id="mobile-menu" class="mobile-container is-open">
       <div class="mobile-container-window">
         <button class="btn-close" type="button">
           <svg class="icon-modal-close" width="8" height="8">
@@ -549,10 +560,12 @@
         <nav class="mobile-nav">
           <ul class="mobie-menu">
             <li>
-              <a class="studio-sub-menu current" href="./index.html">Studio</a>
+              <a class="mobile-studio-sub-menu current" href="./index.html"
+                >Studio</a
+              >
             </li>
-            <li><a class="studio-sub-menu" href="">Portfolio</a></li>
-            <li><a class="studio-sub-menu" href="">Contacts</a></li>
+            <li><a class="mobile-studio-sub-menu" href="">Portfolio</a></li>
+            <li><a class="mobile-studio-sub-menu" href="">Contacts</a></li>
           </ul>
 
           <address>
@@ -571,25 +584,25 @@
             <ul class="mobile-soc-item">
               <li class="icon-item">
                 <a class="icon-link" href="">
-                  <svg class="icon-soc" width="16" height="16">
+                  <svg class="icon-soc" width="24" height="24">
                     <use href="./images/icons.svg#icon-instagram-2"></use></svg
                 ></a>
               </li>
               <li class="icon-item">
                 <a class="icon-link" href=""
-                  ><svg class="icon-soc" width="16" height="16">
+                  ><svg class="icon-soc" width="24" height="24">
                     <use href="./images/icons.svg#icon-twitter-1"></use></svg
                 ></a>
               </li>
               <li class="icon-item">
                 <a class="icon-link" href=""
-                  ><svg class="icon-soc" width="16" height="16">
+                  ><svg class="icon-soc" width="24" height="24">
                     <use href="./images/icons.svg#icon-facebook-1"></use></svg
                 ></a>
               </li>
               <li class="icon-item">
                 <a class="icon-link" href=""
-                  ><svg class="icon-soc" width="16" height="16">
+                  ><svg class="icon-soc" width="24" height="24">
                     <use href="./images/icons.svg#icon-linkedin-1"></use></svg
                 ></a>
               </li>
