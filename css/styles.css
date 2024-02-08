@@ -183,6 +183,10 @@ header {
 
 @media (min-resolution: 192dpi) {
   .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     background-image: url(../images/people-office@2x.jpg);
   }
 }
