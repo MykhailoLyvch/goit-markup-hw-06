@@ -962,7 +962,7 @@ header {
         rgba(46, 47, 66, 0.4),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg@1x.jpg);
+      url(../images/Dark-bg-mobile.jpg);
   }
 
   .hero .container {
@@ -1195,6 +1195,17 @@ header {
     display: flex;
     flex-direction: column;
     gap: 12px;
+  }
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.4),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bgtablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 768px;
   }
 
   .list .svg-section-two {
