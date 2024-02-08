@@ -955,9 +955,15 @@ header {
   .adress-data:hover {
     color: #4d5ae5;
   }
+
+  .hero {
+    background-size: cover;
+  }
+
   .hero .container {
     max-width: 200px;
   }
+
   .hero-content {
     font-weight: 700;
     font-size: 36px;
