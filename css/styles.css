@@ -957,7 +957,12 @@ header {
   }
 
   .hero {
-    background-size: cover;
+    background: grey;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.4),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg@1x.jpg);
   }
 
   .hero .container {
