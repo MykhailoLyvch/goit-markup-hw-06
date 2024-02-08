@@ -23,6 +23,7 @@ ul {
 
 img {
   display: block;
+  width: 100%;
 }
 
 .logo,
@@ -178,6 +179,12 @@ header {
   padding: 188px 0;
   max-width: 1440px;
   margin: auto;
+}
+
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: url(../images/people-office@2x.jpg);
+  }
 }
 
 .hero .container {
@@ -867,6 +874,7 @@ header {
     margin-right: auto;
   }
   img {
+    display: block;
     width: 100%;
   }
   .logo {
@@ -1210,6 +1218,7 @@ header {
     flex-basis: calc((100% - 24px) / 2);
   }
   img {
+    display: block;
     width: 100%;
   }
   .our-portfolio-list {
