@@ -871,11 +871,12 @@ header {
 
 @media screen and (max-width: 320px) {
   .container {
-    max-width: 320px;
+      max-width: 320px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
+    
   }
   img {
     display: block;
@@ -963,10 +964,15 @@ header {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/Dark-bg-mobile.jpg);
+      background-repeat: no-repeat;
+      width: 320px;
+      max-height: 432px;
+      padding: 72px 0 ;
   }
 
   .hero .container {
     max-width: 200px;
+    
   }
 
   .hero-content {
@@ -974,7 +980,10 @@ header {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+        
   }
+
+
 
   .properties {
     padding: 96px 0;
@@ -1186,6 +1195,7 @@ header {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+      
   }
   .top-line .container {
     padding: 0 16px;
@@ -1196,17 +1206,7 @@ header {
     flex-direction: column;
     gap: 12px;
   }
-
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.4),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bgtablet.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 768px;
-  }
+  
 
   .list .svg-section-two {
     display: none;
