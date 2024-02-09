@@ -169,25 +169,26 @@ header {
 .hero {
   background: #2e2f42;
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.4),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/people-office@x1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 1158px 600px;
   padding: 188px 0;
-  max-width: 1440px;
+  width: 1440px;
   margin: auto;
 }
 
 @media (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.4),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office@2x.jpg);
+    background-size: 1158px 600px;
   }
 }
 
@@ -871,12 +872,11 @@ header {
 
 @media screen and (max-width: 320px) {
   .container {
-      max-width: 320px;
+    max-width: 320px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
-    
   }
   img {
     display: block;
@@ -964,15 +964,25 @@ header {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/Dark-bg-mobile.jpg);
-      background-repeat: no-repeat;
-      width: 320px;
-      max-height: 432px;
-      padding: 72px 0 ;
+    background-repeat: no-repeat;
+    width: 320px;
+    max-height: 432px;
+    padding: 72px 0;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.4),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bgmobile@2x.jpg);
+      background-size: cover;
+    }
   }
 
   .hero .container {
     max-width: 200px;
-    
   }
 
   .hero-content {
@@ -980,10 +990,7 @@ header {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-        
   }
-
-
 
   .properties {
     padding: 96px 0;
@@ -1192,10 +1199,9 @@ header {
 
 /*========768===========*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1158px) {
   .container {
     max-width: 768px;
-      
   }
   .top-line .container {
     padding: 0 16px;
@@ -1206,7 +1212,30 @@ header {
     flex-direction: column;
     gap: 12px;
   }
-  
+
+  .hero {
+    background: grey;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.4),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bgtablet.jpg);
+    background-repeat: no-repeat;
+    width: 768px;
+    max-height: 436px;
+    padding: 112px 0;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.4),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(..//images/Dark-bgtablet@2x.jpg);
+      background-size: cover;
+    }
+  }
 
   .list .svg-section-two {
     display: none;
