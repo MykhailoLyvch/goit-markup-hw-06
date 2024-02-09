@@ -175,7 +175,7 @@ header {
     url(../images/people-office@x1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1158px 600px;
+  background-size: 1440px 600px;
   padding: 188px 0;
   width: 1440px;
   margin: auto;
@@ -188,7 +188,7 @@ header {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office@2x.jpg);
-    background-size: 1158px 600px;
+    background-size: 1440px 600px;
   }
 }
 
@@ -1353,7 +1353,7 @@ header {
   }
 
   .top-line {
-    max-width: 1158px;
+    max-width: 1440;
     margin: 0 auto;
   }
 
@@ -1366,7 +1366,7 @@ header {
     gap: 40px;
   }
   .hero {
-    max-width: 1158px;
+    max-width: 1440px;
   }
 
   .list {
