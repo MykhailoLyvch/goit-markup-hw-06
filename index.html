@@ -521,7 +521,7 @@
       </div>
     </footer>
     <!-- modal window -->
-    <div class="modal-window-container is-open">
+    <div class="modal-window-container">
       <div class="modal-window">
         <button class="btn-close" type="button">
           <svg class="icon-modal-close" width="8" height="8">
@@ -603,7 +603,7 @@
     </div>
     <!-- 
     heder-mobile-modal -->
-    <div id="mobile-menu" class="mobile-container is-open">
+    <div id="mobile-menu" class="mobile-container">
       <div class="mobile-container-window">
         <button class="btn-close" type="button">
           <svg class="icon-modal-close" width="8" height="8">
@@ -664,18 +664,5 @@
         </nav>
       </div>
     </div>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const closeButton = document.querySelector(".btn-close");
-        const modalContainer = document.querySelector(
-          ".modal-window-container"
-        );
-
-        closeButton.addEventListener("click", function () {
-          modalContainer.classList.remove("is-open");
-        });
-      });
-    </script>
   </body>
 </html>
