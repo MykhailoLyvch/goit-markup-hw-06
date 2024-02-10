@@ -37,7 +37,7 @@ ul {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -152,7 +152,6 @@ header {
   align-items: center;
   flex-shrink: 0;
   background: #fff;
-  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -225,7 +224,7 @@ header {
 
 .container .hero-content {
   max-width: 496px;
-  margin: 0 auto 48px;
+  margin: 0 auto 72px;
 }
 
 .container .hero-btn {
@@ -336,7 +335,7 @@ header {
 
 .our-team-content .container {
   width: 1158px;
-  padding: 0 15px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
@@ -878,10 +877,7 @@ header {
     margin-left: auto;
     margin-right: auto;
   }
-  img {
-    display: block;
-    width: 100%;
-  }
+
   .logo {
     margin-right: 140px;
   }
@@ -890,13 +886,12 @@ header {
     padding: 16px 0px 16px 0;
   }
   .toggle-menu-btn {
-    right: 100px;
     width: 24px;
     height: 24px;
     cursor: pointer;
-    padding: 0px;
-    background-color: #ffffff;
-    border: 1px solid #ccc;
+    padding: 3px 3px 3px 2px;
+    background-color: transparent;
+    border: none;
   }
 
   .menu {
@@ -1022,6 +1017,14 @@ header {
     letter-spacing: 0.02em;
     justify-content: center;
   }
+
+  .description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
   .card-info .title {
     font-weight: 500;
     font-size: 20px;
@@ -1041,10 +1044,11 @@ header {
   .our-team-content {
     display: flex;
     flex-direction: column;
+    padding: 96px 0;
   }
 
   .our-team-img {
-    width: 100%;
+    width: 264px;
   }
 
   .card-info {
@@ -1058,10 +1062,12 @@ header {
   .our-team-list {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 72px;
   }
 
   .our-portfolio-content {
-    padding: 101px 0 96px 0;
+    padding: 96px 0;
   }
   .our-portfolio-list {
     display: flex;
@@ -1076,10 +1082,12 @@ header {
   .box-end .container {
     display: flex;
     flex-direction: column;
+    gap: 72px;
   }
   .form {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .logo-paragraf {
     display: flex;
@@ -1093,19 +1101,21 @@ header {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 72px;
   }
 
   .foter-soc {
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 72px;
   }
   .soc-media {
     text-align: center;
   }
   .form-paragraf {
     text-align: center;
+  }
+
+  .email-input {
+    width: 288px;
   }
   /* ------------------ */
 
@@ -1192,6 +1202,13 @@ header {
   }
   .span-for {
     text-transform: capitalize;
+  }
+
+  .privacy-label {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
   }
 }
 
