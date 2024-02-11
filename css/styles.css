@@ -1216,7 +1216,7 @@ header {
   .container {
     max-width: 768px;
   }
-  .top-line .container {
+  .container {
     padding: 0 16px;
   }
 
@@ -1250,6 +1250,11 @@ header {
     }
   }
 
+.properties{
+padding-top: 96px;
+padding-bottom: 96px;
+}
+
   .list .svg-section-two {
     display: none;
   }
@@ -1258,6 +1263,7 @@ header {
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
+    
   }
   .list-item {
     flex-basis: calc((100% - 24px) / 2);
@@ -1280,6 +1286,11 @@ header {
     flex-wrap: wrap;
     row-gap: 64px;
   }
+
+.our-team-content{
+  padding: 96px 0;
+}
+
   .our-team-img {
     flex-basis: calc((100% - 24px) / 2);
   }
@@ -1287,6 +1298,11 @@ header {
     display: block;
     width: 100%;
   }
+
+.our-portfolio-content{
+  padding: 96px 0;
+}
+
   .our-portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -1298,21 +1314,29 @@ header {
 
   .box-end .container {
     display: flex;
+    flex-direction: row;
+    align-items: baseline;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
     margin: 0 auto;
   }
   .logo-paragraf {
     margin-right: 0;
-    margin-left: auto;
+    margin-left: 0;
   }
 
+  .box-end{
+    padding: 96px 92px;
+  }
+  .foter-description{
+    max-width: 264px;
+  }
   .foter-soc {
     margin-right: auto;
   }
 
   .foter-subscribe-container {
-    margin-left: 120px;
+    margin-left:0px ;
   }
 
   .modal-window-container {
