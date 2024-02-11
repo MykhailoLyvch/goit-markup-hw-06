@@ -177,6 +177,7 @@ header {
   background-size: 1440px 600px;
   padding: 188px 0;
   width: 1440px;
+  height: 600px;
   margin: auto;
 }
 
@@ -878,6 +879,12 @@ header {
     margin-right: auto;
   }
 
+.top-line{
+  max-width: 320px;
+  margin: 0 auto;
+  
+}
+  
   .logo {
     margin-right: 140px;
   }
@@ -1059,6 +1066,8 @@ header {
     min-width: 264px;
   }
 
+
+
   .our-team-list {
     display: flex;
     flex-direction: column;
@@ -1215,11 +1224,15 @@ header {
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
     max-width: 768px;
-  }
-  .container {
     padding: 0 16px;
   }
+  
+  .top-line{
+    max-width: 768px;
+    margin: 0 auto;
+  }
 
+  
   .kontakt-box {
     display: flex;
     flex-direction: column;
@@ -1268,13 +1281,16 @@ padding-bottom: 96px;
   .list-item {
     flex-basis: calc((100% - 24px) / 2);
   }
-  .title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-  }
+  
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  
+}
+
   .description {
     font-weight: 500;
     font-size: 16px;
@@ -1390,7 +1406,7 @@ padding-bottom: 96px;
   }
 
   .top-line {
-    max-width: 1440;
+    max-width: 1440px;
     margin: 0 auto;
   }
 
